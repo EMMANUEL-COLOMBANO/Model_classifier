@@ -6,8 +6,8 @@ import numpy as np
 from PIL import Image
 import cv2
 
-st.title("Mango Fruit Classifier")
-# st.set_page_config(page_title="Mango Maturity Classifier", page_icon=":mango:")
+# st.title("Mango Fruit Classifier")
+st.set_page_config(page_title="Mango Maturity Classifier", page_icon=":mango:")
 
 img_height = 180
 img_width = 180
