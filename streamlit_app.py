@@ -4,10 +4,8 @@ os.environ['TF_ENABLE_ONEDNN_OPTS'] = '0'
 import tensorflow as tf
 import numpy as np
 from PIL import Image
-# import cv2
 
 st.title("Mango Fruit Classifier")
-# st.set_page_config(page_title="Mango Maturity Classifier", page_icon=":mango:")
 
 img_height = 180
 img_width = 180
@@ -30,7 +28,6 @@ def preprocess_image(image_path):
     img = tf.keras.utils.load_img(image_path, target_size=(img_height, img_width))
     img_array = tf.keras.utils.img_to_array(img)
     img_array = np.expand_dims(img_array,0)
-    # img_array = img_array / 255.0  # Normalize pixel values
     return img_array
 
 # Make predictions
