@@ -4,7 +4,7 @@ os.environ['TF_ENABLE_ONEDNN_OPTS'] = '0'
 import tensorflow as tf
 import numpy as np
 from PIL import Image
-import cv2
+# import cv2
 
 st.title("Mango Fruit Classifier")
 # st.set_page_config(page_title="Mango Maturity Classifier", page_icon=":mango:")
