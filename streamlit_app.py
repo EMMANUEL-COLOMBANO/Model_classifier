@@ -4,8 +4,8 @@ os.environ['TF_ENABLE_ONEDNN_OPTS'] = '0'
 import tensorflow as tf
 import numpy as np
 from PIL import Image
-import cv2
-from size_extract import size_extract
+# import cv2
+# from size_extract import size_extract
 
 
 # st.set_page_config(page_title="Mango Maturity Classifier", page_icon=":mango:")
